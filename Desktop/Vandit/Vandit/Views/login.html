@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vandit</title>
+    <link rel="shortcut icon" href="../img/vanditlogo.png">
+    <link rel="stylesheet" href="../Views/css/style.css">
+</head>
+<body class="grid-layout">
+    <img class="ImagenPrincipalLogin imggrid" src="../img/vanfondo.jpg" alt="imagen de sign">
+    <nav>
+        <a href="../index.html">
+        <img class="PositionLogoLogin logogrid" src="../img/vanditlogo.png" alt="logo de vandit">
+    </a>
+    <ul class="PositionButtonsLogin">
+        <li>
+            <a href="Doubles.html">Double</a>
+        </li>
+        <li>
+            <a href="Families.html">Families</a>
+        </li>
+        <li>
+            <a href="Allterrains.html">All terrains</a>
+        </li>
+        <li>
+            <a href="Trailers.html">Trailers</a>
+        </li>
+        <li>
+            <a href="Signup.html">sign up</a>
+        </li>
+        <li>
+            <a href="login.html">login</a>
+        </li>
+    </ul>
+    </nav>
+    <header>
+        <h1 class="h1Login">Login</h1>  
+    </header>
+    <main class="NavLogin">
+        <!--start form-->
+        <section>
+            <form action="envio.php">
+         <fieldset>
+             <legend>Registration form</legend> 
+             <label for="name">Name</label>
+             <input type="text" id="name" placeholder="type your name here">
+             <br>
+             <label for="last name">Last Name</label>
+            <input type="text" id="last name" placeholder="your last name here">
+            <br>
+             <label for="email">Email</label>
+             <input type="email" id="email" placeholder="and your email here">
+         </fieldset>
+         <fieldset>
+             <legend>Select your vehicle</legend>
+             <label for="doublevans">Doublevans</label>
+             <input type="checkbox" id="doublevans" value="doublevans">
+             <br>
+             <label for="families">Families</label>
+             <input type="checkbox" id="families" value="families">
+             <br>
+             <label for="allterrains">All terrains</label>
+             <input type="checkbox" id="allterrains" value="allterrains">
+             <br>
+             <label for="trailers">Trailers</label>
+             <input type="checkbox" id="trailers" value="trailers">
+             
+         </fieldset>
+        <fieldset>
+            <legend>Info & offers</legend> 
+            <label for="information">information & offers</label>
+            <input type="checkbox" id="information" value="information">
+        </fieldset>
+        <fieldset>
+            <legend>Pick up</legend>
+            <label for="store">Pick up on site</label>
+            <input type="radio" id="store" name="pickup" value="store">
+            <br>
+            <label for="onhome">Deliver to your home</label>
+            <input type="radio" id="onhome" name="pickup" value="onhome">
+            <br>
+            <label for="Country">Country</label>
+            <select name="country" id="">
+            <option value="australia">Australia</option>
+            <option value="newzealand">New Zealand</option>
+        </select>
+        </fieldset>
+        <label for="message">Message  
+        </label>
+        <br>
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+        <br>
+        <input type="reset" value="Cancel">
+        <input type="submit" value="submit">
+            </form>
+        </main>
+        </section>
+        <footer class="footerLogin">
+                <h3 class="h3Login"> Find the perfect campervan, motorhome or caravan to hire for your next holiday.
+                    Help & support Call 0458015990
+                </h3>    
+                <h4 class="h4Login">  ©copyright 2022 Vandit. All rights reserved terms and conditios
+                </h4>
+        </footer>
+            <iframe class="iframelogin mapsgrid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.955461992293!2d153.4270572!3d-27.995258999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91056e29af7aaf%3A0x977c878c3900a985!2sCapistrano%2C%206%20Pine%20Ave%2C%20Surfers%20Paradise%20QLD%204217!5e0!3m2!1ses-419!2sau!4v1653621165539!5m2!1ses-419!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>   
+</body>
+</html>

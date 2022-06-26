@@ -1,0 +1,1351 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
+/* -------Reset--------- */
+
+html{
+    font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h6
+{
+    font-family: 'Inter', sans-serif;
+   
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+/*--Main page----------------------------------------- */
+
+/*--Logo---------------------------------------------- */
+.PositionLogo{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+
+}
+/*--Main Page---------------------------------------------*/
+body{
+    background-image:url(/img/header.jpg)
+}
+/*--Botonera------------------------------------------*/
+
+.PositionButtons
+{
+    position: absolute;
+    width: 71rem;
+    height: 11.7rem;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+
+}
+
+nav ul li a{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    background-color: transparent;
+    color:rgb(230, 126, 34);
+    text-decoration: none;
+    word-spacing: 1rem;
+    padding: 4px;
+    width:100% ;
+    
+
+}
+/*--Second Page-----------------------------------------*/
+
+.segundaimagen{
+    position: relative;
+    width: 100%;
+    height: 100;
+    left: 0%;
+    bottom: 100%;
+    background-image: url(/Vandit/img/footer.jpg);
+    filter: blur(0.2rem);
+    
+}
+#Footer{background: transparent;}
+/*-- Social Media Logos--------------------------------- */
+
+.PositionSocialMedia{
+    position: relative;
+    height: 100%;
+    width: 15%;
+    left: 25%;
+    bottom: 10rem;
+    align-items: center;
+    
+
+}
+/* instagram */
+.instagram{
+    position: relative;
+    width: 4.103rem;
+    height: 4.103rem;
+    left: calc(50% - 4.103rem/2 - 6.649rem);
+    top: calc(50% - 4.103rem/2 + 45.451rem);
+
+    
+}
+/*Facebook*/
+.facebook{
+    position: relative;
+    width: 4.103rem;
+    height: 4.103rem;
+    left: calc(50% - 4.103rem/2 - 2.546rem);
+    top: calc(50% - 4.103rem/2 + 45.451rem);
+
+    background-image: url(/Vandit/img/Facebook.png);
+}
+/*Youtube */
+.youtube{
+
+    position: relative;
+    width: 4.103rem;
+    height: 4.103rem;
+    left: calc(50% - 4.103rem/2 + 1.557rem);
+    top: calc(50% - 4.103rem/2 + 45.451rem);
+
+    background-image: url(/Vandit/img/Youtube.png);
+}
+/*Spotify*/
+.spotify{
+
+    position:relative;
+    width: 4.103rem;
+    height: 4.103rem;
+    left: calc(50% - 4.103rem/2 + 6.549rem);
+    top: calc(50% - 4.103rem/2 + 45.451rem);
+
+    background-image: url(/Vandit/img/Spotify.png);
+}
+
+/* ------------------------------------------------ */
+/* SELECTORES DE CLASES */
+
+.text-center{
+    text-align: center;
+}
+
+/* Colores de texto */
+.text-gray{
+    color: rgb(122, 121, 121);
+}
+
+/* Selectores de ID */
+
+.backgrounheder{
+    background-image: url(/Vandit/img/header.jpg);
+}
+#principal{
+    background-image: url(/Vandit/img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* ------------------------------------------------ */
+/* Font sizes */
+.h1{
+    
+        position: absolute;
+        max-width: 100%;
+        font-size: 6.5rem;
+        height: 20%;
+        left: 2%;
+        top: 50%;
+        color: rgb(13, 12, 12);
+        margin: 0%;
+        background-image: url(/img/header.jpg);
+        max-width: 70rem;
+        margin: auto;
+        }
+.h2{
+    font-size: 6.5rem;
+    line-height: 7rem;
+    font-weight: 900;
+    text-align: center;
+}
+.h3{
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 200;
+    text-align: center;
+}
+.h4{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 100;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    left: 1rem;
+    bottom: 8pc;
+    color: white;
+    white-space: nowrap;
+}
+.h6{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 100;
+    position: relative;
+    height: 100%;
+    width: 20%;
+    bottom: 6pc;
+    color: rgb(252, 252, 252);
+    white-space: nowrap;
+    left: 40rem;
+    
+  
+}
+   
+nav{
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+}
+
+/* ------------------Back ground class-------------------- */
+
+.backgrounheder{
+    background-image: url(/Vandit/img/header.jpg);
+}
+
+.flex-direction{
+    flex-direction: row ;
+
+}
+.flex-wrap{
+    flex-wrap: wrap
+
+}
+.flex-flow{
+    flex-flow: column;
+}
+.justify-content{
+    justify-content:space-between ;
+}
+.aligin-items{
+    align-items: center;
+}
+.algin-contents{
+    align-content: center
+}
+/* --Doubles--------------------------------- */
+.imagenprincipalDoubles{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 60%;
+    background-image: url(/Vandit/img/doubles.jpg);}
+
+.PositionButtonsDoubles{
+
+    position: absolute;
+    width: 71rem;
+    height: 11.7rem;
+    right: 0% ;
+    top: 0%;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    color: rgb(249, 249, 249);
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+    
+}
+.h1Doubles{
+    position: absolute;
+    width: 90.9rem;
+    height: 24.6rem;
+    left: 5%;
+    top: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 7.5rem;
+}
+.h3Doubles{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    bottom: 1.2rem;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: column-reverse;
+
+
+}
+.h4Doubles{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 35%;
+    bottom: 0%;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: unset;
+    justify-items: center;
+    
+}
+.navDouble{
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+    color: white;
+}
+.PositionTableDobles{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3.0rem;
+    color: white;
+    font-weight: 200;
+    background-color: transparent;
+    top: 25%;
+    left: 50%;
+}
+
+
+
+
+
+
+
+/* --Faamilies-------------------------------- */
+
+.ImagenPrincipalFamilies{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 60%;
+    background-image: url(/Vandit/img/families.jpg);}
+
+.PositionButtonsFamilies{
+
+    position: absolute;
+    width: 71rem;
+    height: 11.7rem;
+    right: 0% ;
+    top: 0%;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    color: rgb(8, 8, 8);
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+}
+.PositionLogoFamilies{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+
+}
+.h1Families{
+    position: absolute;
+    width: 90.9rem;
+    height: 24.6rem;
+    left: 10%;
+    top: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 7.5rem;
+}
+.h3Families{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    bottom: 1.2rem;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: column-reverse;
+
+
+}
+.h4Families{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 35%;
+    bottom: 0%;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: unset;
+    justify-items: center;
+    
+}
+.navFamilies{
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+    color: white;
+}
+.PositionTablesFamilies{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3.0rem;
+    color: white;
+    font-weight: 200;
+    background-color: transparent;
+    top: 34%;
+    left: 0%;
+}
+/* --All Terrains-------------------------------- */
+.ImagenPrincipalAllterrains
+{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 60%;
+    background-image: url(/Vandit/img/Allterrains.jpg);
+}
+.PositionLogoAllterrains{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+}
+
+
+.PositionButtonsAllterrains{
+
+    position: absolute;
+    width: 71rem;
+    height: 11.7rem;
+    right: 0% ;
+    top: 0%;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    color: rgb(249, 249, 249);
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+}
+.PositionLogoAllterrains{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+
+}
+.h1Allterrains
+{
+    position: absolute;
+    width: 90.9rem;
+    height: 24.6rem;
+    left: 5%;
+    top: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 7.5rem;
+}
+.h3Allterrains
+{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    bottom: 1.2rem;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: column-reverse;
+
+
+}
+.h4Allterrains{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 35%;
+    bottom: 0%;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: unset;
+    justify-items: center;
+    
+}
+.navAllterrains{
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+    color: white;
+}
+.PositionTablesAllterrains{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3.0rem;
+    color: white;
+    font-weight: 200;
+    background-color: transparent;
+    top: 34%;
+    left: 0%;
+}
+/* --Trailers------------------------------- */
+.ImagenPrincipalTrailers
+{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 60%;
+    background-image: url(/Vandit/img/Trailers.jpg);
+}
+.PositionLogoTrailers
+{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+}
+
+
+.PositionButtonsTrailers{
+
+    position: absolute;
+    width: 71rem;
+    height: 11.7rem;
+    right: 0% ;
+    top: 0%;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+}
+.PositionLogoTrailers{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+
+}
+.h1Trailers
+{
+    position: absolute;
+    width: 90.9rem;
+    height: 24.6rem;
+    left: 5%;
+    top: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 7.5rem;
+}
+.h3Trailers
+{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    bottom: 1.2rem;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: column-reverse;
+
+
+}
+.h4Trailers{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 35%;
+    bottom: 0%;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: unset;
+    justify-items: center;
+    
+}
+.navTrailers{
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+    color: white;
+}
+.PositionTablesTrailers{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3.0rem;
+    color: white;
+    font-weight: 200;
+    background-color: transparent;
+    top: 34%;
+    left: 0%;
+}
+/* --Sign Up------------------------------- */
+.ImagenPrincipalSignUp
+{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 60%;
+    background-image: url(/Vandit/img/Trailers.jpg);
+    padding-bottom: 0%;
+    
+}
+.PositionLogoSignUp
+{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+}
+
+
+.PositionButtonsSignUp
+{
+
+    position: absolute;
+    width: 71rem;
+    height: 11.7rem;
+    right: 0% ;
+    top: 0%;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+}
+.PositionLogoSignUp
+{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+
+}
+.h1SignUp
+{
+    position: absolute;
+    width: 90.9rem;
+    height: 24.6rem;
+    left: 5%;
+    top: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 7.5rem;
+}
+.h3SignUp
+{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    bottom: 2%;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-size: ;
+
+}
+.h4SignUp
+{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 35%;
+    bottom: 0%;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: unset;
+    justify-items: center;
+    
+}
+.footerSignUp{
+    width: 100%;
+    height: 20%;
+    bottom: 0%;
+    justify-content: center;
+}
+.navSignUp
+{
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+    color:rgb(230, 126, 34);
+}
+.PositionTablesSignUp
+{
+    position: fixed;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3.0rem;
+    color: white;
+    font-weight: 200;
+    background-color: transparent;
+    top: 34%;
+    left: 0%;
+}
+/* --Login---------------------------------------- */
+.ImagenPrincipalLogin
+{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-image: url(/Vandit/img/Trailers.jpg);
+}
+.PositionLogoLogin
+{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+}
+
+
+.PositionButtonsLogin
+{
+
+    position: absolute;
+    width: 71rem;
+    height: 11.7rem;
+    right: 0% ;
+    top: 0%;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+}
+.PositionLogoLogin
+{
+    position: absolute;
+    width: 12.6rem;
+    height: 6.7rem;
+    left: 2.5rem;
+    top: 2.5rem;
+    z-index: 40rem;
+
+}
+.h1Login
+{
+    position: absolute;
+    width: 90.9rem;
+    height: 24.6rem;
+    left: 5%;
+    top: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 9.0rem;
+}
+.h3Login
+{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 20%;
+    bottom: 1.2rem;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-size: 5rem;
+
+}
+.h4Login
+{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 50%;
+    bottom: 0%;
+    align-items: center;
+    color: white;
+    font-family:'Inter', sans-serif ;
+    align-items: center;
+    flex-direction: row 50% 50%;
+    justify-items: center; 
+}
+.footerLogin
+{
+    width: 100%;
+    height: 20%;
+    bottom: 0%;
+    justify-content: end;
+    flex-wrap: inherit;
+}
+.navLogin
+{
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: transparent;
+    float: inherit;
+    color:rgb(230, 126, 34);
+}
+
+.NavLogin{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-size: 2rem;
+    line-height: 3.0rem;
+    color: rgb(122, 121, 121);
+    font-weight: 400;
+    background-color:transparent;
+    top: 35%;
+    left: 5%;
+    margin-bottom: 0%;
+    margin-bottom: 0%;
+}
+.iframelogin{
+    width: 100%;
+}
+
+
+
+/* =====Moboile================================= */
+@media (min-width: 481px) and (max-width:1023px) {
+    
+        
+
+       
+}
+
+
+
+
+@media(max-width:481px)
+{   
+    .PositionLogo{
+            position: absolute;
+            width: 6.3rem;
+            height: 3.3rem;
+            left: 0px;
+            top: 0px;
+        }
+.navindex{
+    position: absolute;
+    font-size: 10px;
+    top: 2px;
+    right: 5vh;
+    font-weight: 200;
+    width: 10vh;
+    margin: auto;
+    
+
+}        
+
+
+.titlemainpage{
+
+        position: absolute;
+        max-width: 200px;
+        margin: auto;
+        line-height: 20px;
+        height: 15px;
+        left: 2%;
+        font-size: 15px;
+        top: 15%;
+        color: rgb(254, 252, 252);
+        background-image: url(/img/header.jpg);
+        justify-content: center;
+        align-items: center;
+        white-space: pre-wrap;
+        }
+.h2index{
+    font-size: 45px;
+    line-height: 50px;   
+}
+.h3index{
+    font-size: 15px;
+    line-height: 20px;
+
+}
+      
+.h4paginaprincipal{
+    position:absolute;
+    left: 0px;
+    top: 99vh;
+    width: 50vh;
+    font-size: 8px;
+    white-space: pre-wrap;
+    color: rgb(249, 249, 249);
+    height: auto;   
+}
+.h6paginaprincipal{
+    position:absolute;
+    left: 0vh;
+    top: 115vh;
+    width: 50vh;
+    font-size: 8px;
+    white-space: pre-wrap;
+    color: rgb(249, 249, 249);
+    height: 28vh;
+}
+.positionsocialmediaindex{
+        position: absolute;
+        width: 30vh;
+        left: 2vh;
+        bottom: 7vh;
+        align-items: center;
+        justify-content: center;
+    }
+    /*==Doubles============================  */
+.imgDoublesMobile{
+        position: relative;
+        width: 120vh;
+        left: 0%;
+        top: 100%;
+        background-image:url(/img/doubles.jpg)}
+.PositionLogoDoubles{
+        position: absolute;
+        width: 12rem;
+        height: auto;
+        left: 0px;
+        top: 0px;
+        
+    }
+.navindexDoubles{
+        position: absolute;
+        font-size: 13px;
+        top: 2px;
+        right: 5vh;
+        font-weight: 200;
+        width: 15vh;
+        margin: auto;
+        
+    
+    } 
+.titlemainpageDoubles{
+    position: absolute;
+    max-width: 200px;
+    margin: auto;
+    line-height: 20px;
+    height: 15px;
+    left: 35%;
+    font-size: 20vh;
+    top: 67vh;
+    color: rgb(254, 252, 252);
+    background-image: url(/img/doubles.jpg);
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+    }
+.h2indexDoubles{
+            width: max-content;
+            line-height: 50px; 
+            color: black; 
+            bottom: 65vh;
+        }
+.h3indexDoubles{
+            font-size: 15px;
+            line-height: 20px;
+        
+        }
+              
+.h4Doubles{
+            position:absolute;
+            left: 50%;
+            top: 110vh;
+            width: 50vh;
+            font-size: 15px;
+            white-space: pre-wrap;
+            color: rgb(20, 18, 18);
+            height: auto; 
+            text-align: center; 
+            font-weight: 400;
+             
+        }
+.h6Doubles{
+            position:absolute;
+            left: 50%;
+            top: 140vh;
+            width: 50vh;
+            font-size: 15px;
+            white-space: pre-wrap;
+            color: rgb(8, 8, 8);
+            height: 40vh;
+            font-weight: 100;
+            
+        }
+
+.PositionTableDoubles{
+                position: relative;
+                font-family: 'Inter', sans-serif;
+                font-style: none;
+                font-size: 2.5rem;
+                line-height: 3.0rem;
+                color: rgb(14, 12, 12);
+                font-weight: 200;
+                background-color: transparent;
+                top: 25%;
+                left: 20%;
+                width: 100vh;
+                align-content: center;
+              
+            } 
+/* ==Families=========================================================== */
+.PositionLogoFamilies{
+        width: 8rem;
+}
+
+.h1Families{
+    width: max-content;
+}
+.PositionTablesFamilies{
+    color: black;
+    width: max-content;
+    top: 40vh;
+    font-size: medium;
+    text-align: center;
+}
+.h3Families{
+    color: black;
+    font-weight: 400;
+    top: 70vh;
+    text-align: center;
+}
+.h4Families{
+    color: rgb(0, 0, 0);
+    top: 80vh;
+    text-align: center;
+    font-weight: 200;
+    left: 13vh;
+   
+    
+}
+
+
+
+/* ==All Terrains======================================================= */
+.PositionLogoAllterrains{
+    width: 8rem;
+}
+
+.h1Allterrains{
+width: max-content;
+left: auto;
+font-size: 65px;
+
+}
+.PositionButtonsAllterrains{
+    max-width: max-content;
+}
+.PositionTablesAllterrains{
+color: black;
+width: max-content;
+top: 40vh;
+font-size: medium;
+text-align: center;
+}
+.h3Allterrains{
+color: black;
+font-weight: 400;
+top: 70vh;
+text-align: center;
+}
+.h4Allterrains{
+color: rgb(0, 0, 0);
+top: 80vh;
+text-align: center;
+font-weight: 200;
+left: 13vh;
+
+
+}
+
+/* ==Trailers======================================================= */
+.PositionLogoTrailers{
+    width: 8rem;
+}
+
+.h1Trailers{
+width: max-content;
+left: 10vh;
+font-size: 65px;
+text-align: center;
+
+}
+.PositionButtonsTrailers{
+    max-width: max-content;
+}
+
+.PositionTablesTrailers{
+color: black;
+width: max-content;
+top: 40vh;
+font-size: medium;
+left: 10vh;
+}
+.h3Trailers{
+color: black;
+font-weight: 400;
+top: 70vh;
+text-align: center;
+}
+.h4Trailers{
+color: rgb(0, 0, 0);
+top: 80vh;
+text-align: center;
+font-weight: 200;
+left: 13vh;
+
+
+}
+/* ==Sign Up======================================================= */
+.PositionLogoSignUp{
+    width: 8rem;
+}
+
+.h1SignUp{
+    max-width: max-content;
+    top: 28vh;
+    left: 10vh;
+}
+.h3SignUp{
+    color: black;
+    font-weight: 400;
+    top: 60vh;
+    text-align: center;
+}
+.h4SignUp{
+    color: rgb(0, 0, 0);
+    top: 70vh;
+    text-align: center;
+    font-weight: 200;
+    left: 13vh;
+}
+/* ==Login======================================================= */
+
+.PositionLogoLogin{
+    width: 8rem;
+    height:auto;
+}
+.PositionButtonsLogin {
+    top: 0vh;
+    height: auto;
+    
+}
+
+.h1Login{
+    max-width: max-content;
+    top: 10vh;
+    left: 10vh;
+    color: rgb(122, 121, 121);
+
+}
+
+.h3Login{
+ display: none;   
+    
+}
+.h4Login{
+   display: none;
+  
+}
+.NavLogin{
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    width: max-content;
+    top: 25vh;
+    font-size: medium;
+    left: 10vh;
+    justify-content: center;
+    max-height: fit-content;
+    margin-bottom: 0%;
+    }
+.iframelogin{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+
+/* ====GRID=========================================== */
+/* ====GRID=========================================== */
+/* ====GRID=========================================== */
+/* ====GRID INDEX=========================================== */
+
+#bodyI{
+    display: grid;
+    grid-template-areas:'header header'
+    'main main'
+    'pie pie';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+
+}
+
+
+#header{
+    grid-area: header;
+}
+#main{
+    grid-area: main;
+}
+
+#pie{
+    grid-area: pie;
+}
+/*==Grid Login========================================  */
+.grid-layoutLoguin{
+    display: grid; 
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 120% 0%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.imggrid{
+    grid-column: 1/3;
+    grid-row: 1fr;
+}
+
+.mapsgrid{
+    grid-column: 1/3;
+    grid-row: 1fr;
+}
+
+}
+/* logogrid buttonsgrid 3.443%
+imggrid
+maingrid
+mapsgrid
+piegrid 3.443%
+ */
